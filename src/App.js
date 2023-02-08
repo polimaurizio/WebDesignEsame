@@ -1,16 +1,17 @@
 import './App.css';
-import Container from "./Components/Container";
 import {useEffect} from "react";
-import Card from "./Components/Card";
 import Nav from './Components/Nav'
-import Button from './Components/Button'
+import Container from "./Components/Container";
 
 function App() {
-    /*useEffect(()=>{
-        document.getElementsByTagName('html')[0].classList.add('dark');
-    }, []);*/
+  /*useEffect(() => {
+    document.getElementsByTagName('html')[0].classList.add('dark');
+  }, []);*/
   return (
-      <Nav />
+      <Container>
+        <Nav/>
+        <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+      </Container>
   );
 }
 
