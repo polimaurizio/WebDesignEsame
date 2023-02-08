@@ -1,9 +1,12 @@
 import './App.css';
+import Container from "./Components/Container";
 import Button from './Components/Button';
 
 function App() {
   return (
-    <Button>Hello World!</Button>
+      <Container className={'flex'}>
+        <Button>Prova</Button>
+      </Container>
   );
 }
 
