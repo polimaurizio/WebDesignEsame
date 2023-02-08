@@ -1,28 +1,24 @@
 import React from 'react';
 import {Navbar} from 'flowbite-react';
-import {Button} from "flowbite-react";
+import Image from '../Image'
+import Logo from '../Logo';
 
 const Nav = ({}) => {
     return (
 
         <Navbar
+            className={'mt-2 ml-3 mr-3 mb-3'}
             fluid={true}
             rounded={true}
+
         >
 
             <Navbar.Brand href="https://flowbite.com/">
-                <img
-                    src="https://flowbite.com/docs/images/logo.svg"
-                    className="mr-3 h-6 sm:h-9"
-                    alt="Flowbite Logo"
-                />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+                <Logo />
             </Navbar.Brand>
 
             <div className="flex md:order-2">
-                <Button>
-                    Get started
-                </Button>
+                <Image />
                 <Navbar.Toggle />
             </div>
 
@@ -30,21 +26,18 @@ const Nav = ({}) => {
             <Navbar.Collapse>
                 <Navbar.Link
                     href="/navbars"
-                    active={true}
+                    //active={true}
                 >
-                    Home
+                    <p className={'text-[#FF0000] hover:text-[#FF0000]'}>Home</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    About
+                    <p className={'hover:text-[#FF0000]'}>Storia</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    Services
+                    <p className={'hover:text-[#FF0000]'}>Prodotti</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    Pricing
-                </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Contact
+                    <p className={'hover:text-[#FF0000]'}>Contatti</p>
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
