@@ -1,19 +1,26 @@
 import './App.css';
 import Container from "./Components/Container";
-import Card from "./Components/Card"
 import {useEffect} from "react";
+import Card from "./Components/Card";
+import Nav from './Components/Nav'
 
 function App() {
-    useEffect(()=>{
+    /*useEffect(()=>{
         document.getElementsByTagName('html')[0].classList.add('dark');
-    }, []);
+    }, []);*/
 
   return (
-      <Container className={'place-items-center h-screen'}>
+    <div>
+
+      <Nav />
+
+        {/*<Container className={'place-items-center h-screen'}>
           <div className={'items-center justify-center flex h-screen'}>
-            <Card />
+              <Card />
           </div>
-      </Container>
+        </Container>*/}
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    </div>
   );
 }
 
