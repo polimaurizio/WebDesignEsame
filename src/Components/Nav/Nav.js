@@ -19,7 +19,7 @@ const Nav = ({}) => {
 
             <div className="flex md:order-2">
                 <Image />
-                <Navbar.Toggle />
+                <Navbar.Toggle className={'text-red-600'}/>
             </div>
 
             {/* Collapse */}
