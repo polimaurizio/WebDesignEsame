@@ -13,7 +13,7 @@ const Nav = ({}) => {
 
         >
 
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="#">
                 <Logo />
             </Navbar.Brand>
 
