@@ -18,8 +18,8 @@ const Nav = ({}) => {
             </Navbar.Brand>
 
             <div className="flex md:order-2">
-                <Image />
-                <Navbar.Toggle className={'text-red-600'}/>
+                <Image/>
+                <Navbar.Toggle/>
             </div>
 
             {/* Collapse */}
@@ -28,16 +28,16 @@ const Nav = ({}) => {
                     href="/navbars"
                     //active={true}
                 >
-                    <p className={'text-[#FF0000] hover:text-[#FF0000]'}>Home</p>
+                    <p className={'text-black hover:text-black'}>Home</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    <p className={'hover:text-[#FF0000]'}>Storia</p>
+                    <p className={'hover:text-black'}>Storia</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    <p className={'hover:text-[#FF0000]'}>Prodotti</p>
+                    <p className={'hover:text-black'}>Prodotti</p>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                    <p className={'hover:text-[#FF0000]'}>Contatti</p>
+                    <p className={'hover:text-black'}>Contatti</p>
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>

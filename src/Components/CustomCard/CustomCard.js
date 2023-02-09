@@ -3,9 +3,9 @@ import {Card} from 'flowbite-react';
 
 const CustomCard = ({props}) => {
     return(
-        <div className={'sm:flex sm:justify-between mx-10 sm:place-content-center'}>
+        <div className={'sm:flex sm:justify-between mx-10 sm:place-content-center text-montserrat font-light'}>
                 <div className="max-w-sm mt-20 sm:mx-4 mx-auto">
-                    <Card imgSrc="https://flowbite.com/docs/images/carousel/carousel-1.svg">
+                    <Card imgSrc="/Loghi/image_1.jpeg">
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Noteworthy technology acquisitions 2021
                         </h5>
@@ -16,7 +16,7 @@ const CustomCard = ({props}) => {
                 </div>
 
                 <div className="max-w-sm mt-20 sm:mx-4 mx-auto">
-                    <Card imgSrc="https://flowbite.com/docs/images/carousel/carousel-1.svg">
+                    <Card imgSrc="/Loghi/image_3.jpeg">
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Noteworthy technology acquisitions 2021
                         </h5>
@@ -27,7 +27,7 @@ const CustomCard = ({props}) => {
                 </div>
 
                 <div className="max-w-sm mt-20 sm:mx-4 mx-auto">
-                    <Card imgSrc="https://flowbite.com/docs/images/carousel/carousel-1.svg">
+                    <Card imgSrc="/Loghi/image_2.jpeg">
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Noteworthy technology acquisitions 2021
                         </h5>

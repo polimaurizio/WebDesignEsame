@@ -41,7 +41,8 @@ const CustomFooter = ({}) => {
                             <Footer.Title title="Indirizzo" />
                             <Footer.LinkGroup col={true}>
                                 <Footer.Link href="#">
-                                    Via Porta Nuova - VR
+                                    Via Porta Nuova
+                                    <br /> Verona - VR
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
