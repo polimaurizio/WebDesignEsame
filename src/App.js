@@ -3,7 +3,8 @@ import {useEffect} from "react";
 import Nav from './Components/Nav'
 import Container from './Components/Container';
 import Carrosello from './Components/Carrosello';
-import CustomCard from './Components/CustomCard'
+import CustomCard from './Components/CustomCard';
+import CustomFooter from "./Components/Footer";
 
 function App() {
   /*useEffect(() => {
@@ -14,11 +15,12 @@ function App() {
         <Nav/>
         <Carrosello />
 
-          <h1 className={'mt-16 sm:mt-20 text-center font-bold text-[#364053] text-[30px] sm:text-[40px]'}>I nostri prodotti</h1>
+         <h1  className={'mt-16 sm:mt-20 text-center font-bold text-[#364053] text-[30px] sm:text-[40px]'}>I nostri prodotti</h1>
 
-      <CustomCard />
+          <CustomCard />
 
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <CustomFooter />
+
         <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
       </Container>
   );

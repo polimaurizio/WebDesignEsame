@@ -4,7 +4,7 @@ import {Carousel} from "flowbite-react";
 const Carrosello = ({}) =>{
     return(
         <div className="h-[400px] sm:h-[500px] xl:h-[600px]">
-            <Carousel className={'rounded-none'}>
+            <Carousel slideInterval={4000}>
                 <img
                     src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
                     alt="..."
