@@ -6,17 +6,16 @@ const CustomFooter = ({}) => {
     return(
         <Footer container={true} className={'pt-32'}>
             <div className="w-full">
-                <Footer.Divider />
+                <Footer.Divider/>
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-                    <div>
-                        <Footer.Brand
-                            href="#">
-                            <Logo />
-                        </Footer.Brand>
+                    <div className={'mb-8'}>
+
+                        <Logo/>
+
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
                         <div>
-                            <Footer.Title title="Referenti" />
+                            <Footer.Title title="Referenti"/>
                             <Footer.LinkGroup col={true}>
                                 <Footer.Link href="#">
                                     Maurizio Poli
@@ -38,17 +37,17 @@ const CustomFooter = ({}) => {
                             </Footer.LinkGroup>
                         </div>
                         <div>
-                            <Footer.Title title="Indirizzo" />
+                            <Footer.Title title="Indirizzo"/>
                             <Footer.LinkGroup col={true}>
                                 <Footer.Link href="#">
                                     Via Porta Nuova
-                                    <br /> Verona - VR
+                                    <br/> Verona - VR
                                 </Footer.Link>
                             </Footer.LinkGroup>
                         </div>
                     </div>
                 </div>
-                <Footer.Divider />
+                <Footer.Divider/>
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
                     <Footer.Copyright
                         href="#"

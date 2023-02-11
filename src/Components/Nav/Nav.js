@@ -7,14 +7,15 @@ const Nav = ({}) => {
     return (
 
         <Navbar
-            className={'mt-2 ml-3 mr-3 mb-3 font-montserrat sm:font-semibold font-light'}
+            className={'fixed z-50 w-full rounded-none font-montserrat font-light'}
             fluid={true}
             rounded={true}
+
 
         >
 
             <Navbar.Brand href="#">
-                <Logo />
+                <Logo/>
             </Navbar.Brand>
 
             <div className="flex md:order-2">
@@ -23,7 +24,7 @@ const Nav = ({}) => {
             </div>
 
             {/* Collapse */}
-            <Navbar.Collapse>
+            <Navbar.Collapse className={'text-black'}>
                 <Navbar.Link
                     href="/navbars"
                     //active={true}
