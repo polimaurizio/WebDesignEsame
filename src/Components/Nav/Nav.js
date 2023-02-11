@@ -7,7 +7,7 @@ const Nav = ({}) => {
     return (
 
         <Navbar
-            className={'mt-2 ml-3 mr-3 mb-3'}
+            className={'mt-2 ml-3 mr-3 mb-3 font-montserrat sm:font-semibold font-light'}
             fluid={true}
             rounded={true}
 
