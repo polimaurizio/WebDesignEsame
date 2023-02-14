@@ -3,7 +3,7 @@ import {Carousel, Flowbite} from "flowbite-react";
 
 const Carrosello = ({}) =>{
     return(
-        <div className="h-[400px] sm:h-[500px] xl:h-[600px]">
+        <div className="h-[600px] sm:h-[600px] xl:h-[700px]">
             <Flowbite
                 theme={{theme: {carousel: {scrollContainer: {base: "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth indiana-scroll-container indiana-scroll-container--hide-scrollbars rounded-none"}}}}}>
                 <Carousel slideInterval={4000} className={"-px-[2px]"}>
