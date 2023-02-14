@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar} from 'flowbite-react';
 import Image from '../Image'
 import Logo from '../Logo';
+import '../../App.css';
 
 const Nav = ({}) => {
     return (
@@ -34,11 +35,11 @@ const Nav = ({}) => {
                 <Navbar.Link href="/navbars">
                     <p className={'hover:text-black'}>Storia</p>
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    <p className={'hover:text-black'}>Prodotti</p>
+                <Navbar.Link>
+                    <a href="#prodotti_anchor" className={'hover:text-black'}>Prodotti</a>
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    <p className={'hover:text-black'}>Contatti</p>
+                <Navbar.Link>
+                    <a href={'#contatti_footer'} className={'hover:text-black'}>Contatti</a>
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>

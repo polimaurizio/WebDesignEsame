@@ -1,9 +1,10 @@
 import React from 'react';
 import {Footer} from 'flowbite-react';
 import Logo from '../Logo';
+import '../../App.css';
 
 const CustomFooter = ({}) => {
-    return(
+    return (
         <Footer container={true} className={'pt-32'}>
             <div className="w-full">
                 <Footer.Divider/>
@@ -13,7 +14,7 @@ const CustomFooter = ({}) => {
                         <Logo/>
 
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+                    <div id={'contatti_footer'} className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
                         <div>
                             <Footer.Title title="Referenti"/>
                             <Footer.LinkGroup col={true}>
