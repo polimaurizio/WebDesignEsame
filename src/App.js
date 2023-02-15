@@ -5,13 +5,19 @@ import Container from './Components/Container';
 import Carrosello from './Components/Carrosello';
 import CustomCard from './Components/CustomCard';
 import CustomFooter from './Components/Footer';
+import ReactGA from 'react-ga';
+
+
 
 function App() {
   /*useEffect(() => {
     document.getElementsByTagName('html')[0].classList.add('dark');
   }, []);*/
 
-  return (
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+    return (
       <Container>
           <Nav/>
           <Carrosello/>
