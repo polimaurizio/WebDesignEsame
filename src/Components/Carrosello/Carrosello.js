@@ -6,7 +6,7 @@ const Carrosello = ({}) =>{
         <div className="h-[600px] sm:h-[600px] xl:h-[700px] relative">
             <Flowbite
                 theme={{theme: {carousel: {scrollContainer: {base: "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth indiana-scroll-container indiana-scroll-container--hide-scrollbars rounded-none"}}}}}>
-                <Carousel slideInterval={400000} className={"-px-[2px]"}>
+                <Carousel slideInterval={4000} className={"-px-[2px]"}>
                     <img
                         src="/Img/img_1.jpg"
                         alt="..."

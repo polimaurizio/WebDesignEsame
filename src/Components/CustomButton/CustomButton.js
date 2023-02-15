@@ -3,7 +3,7 @@ import classNames from "classnames";
 import {Button} from 'flowbite-react';
 
 const CustomButton = ({children, className}) => {
-    let classes = classNames('mt-20 w-max', className);
+    let classes = classNames('mt-20 w-max hover:bg-gray-100', className);
 
     return (
         <div className={'flex justify-center'}>
