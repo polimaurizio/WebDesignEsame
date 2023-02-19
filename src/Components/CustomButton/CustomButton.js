@@ -1,19 +1,14 @@
 import React from 'react';
 import classNames from "classnames";
-import {Button} from 'flowbite-react';
 
 const CustomButton = ({children, className}) => {
-    let classes = classNames('mt-20 w-max hover:bg-gray-100', className);
+    let classes = classNames('mt-20 py-2 px-4 bg-white hover:bg-gray-100 rounded-full border border-gray-700 text-gray-700', className);
 
     return (
         <div className={'flex justify-center'}>
-            <Button
-                className={classes}
-                color="gray"
-                pill={true}
-            >
+            <button className={classes}>
                 {children}
-            </Button>
+            </button>
         </div>
     )
 };

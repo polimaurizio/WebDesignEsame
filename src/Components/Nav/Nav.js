@@ -8,7 +8,7 @@ const Nav = ({}) => {
     return (
 
         <Navbar
-            className={'fixed z-50 w-full rounded-none font-montserrat font-light'}
+            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem]'}
             fluid={true}
             rounded={true}
 
