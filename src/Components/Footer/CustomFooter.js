@@ -5,7 +5,7 @@ import '../../App.css';
 
 const CustomFooter = ({}) => {
     return (
-        <Footer container={true} className={'pt-32'}>
+        <Footer container={true} className={'pt-32 shadow-none'}>
             <div className="w-full">
                 <Footer.Divider/>
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">

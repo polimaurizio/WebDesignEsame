@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*::selection {
+    color: rgba(42, 42, 42, 0);
+    background-color: rgba(243, 243, 243, 0);
+}
+
+
 html.dark {
     color-scheme: dark;
     background-color: #0A0E1F;
