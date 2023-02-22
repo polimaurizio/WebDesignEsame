@@ -15,7 +15,7 @@ function App() {
 
 
     return (
-      <Container>
+      <Container className={'select-none'}>
           <Nav/>
           <Carrosello/>
 
