@@ -1,12 +1,20 @@
 import React from 'react'
 import {Carousel, Flowbite} from "flowbite-react";
 
+
+
+//{rightControl: "hidden", leftControl: "hidden"}}
+
 const Carrosello = ({}) =>{
     return(
         <div className="h-[600px] sm:h-[600px] xl:h-[700px] relative pt-[3.5rem]">
             <Flowbite
-                theme={{theme: {carousel: {scrollContainer: {base: "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth indiana-scroll-container indiana-scroll-container--hide-scrollbars rounded-none"}}}}}>
-                <Carousel slideInterval={4000} className={"-px-[2px]"}>
+                theme={{theme: {carousel: {rightControl: "hidden", leftControl: "hidden", scrollContainer: {base: "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth indiana-scroll-container indiana-scroll-container--hide-scrollbars rounded-none"}}}}}
+            >
+
+                <Carousel slideInterval={4000} className={"-px-[2px]"}
+
+                >
                     <img
                         src="/Img/img_1.jpg"
                         alt="..."

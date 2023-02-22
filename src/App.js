@@ -5,6 +5,8 @@ import Carrosello from './Components/Carrosello';
 import CustomCard from './Components/CustomCard';
 import CustomFooter from './Components/Footer';
 import CustomHorizontalCard from "./Components/CustomHorizontalCard";
+import CustomButton from "./Components/CustomButton";
+import React from "react";
 
 
 
@@ -33,6 +35,8 @@ function App() {
               className={'mt-16 sm:mt-24 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
               nostri prodotti</h1>
           <CustomCard/>
+          <CustomButton className={''}>Scopri di più</CustomButton>
+
 
 
           {/* FOOTER */}
