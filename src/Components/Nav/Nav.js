@@ -25,15 +25,15 @@ const Nav = ({}) => {
             </div>
 
             {/* Collapse */}
-            <Navbar.Collapse className={'text-black'}>
+            <Navbar.Collapse className={'text-black bg-white'}>
                 <Navbar.Link
                     href="/navbars"
                     //active={true}
                 >
                     <p className={'text-black hover:text-black'}>Home</p>
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    <p className={'hover:text-black'}>Storia</p>
+                <Navbar.Link>
+                    <a href="#storia_anchor" className={'hover:text-black'}>Storia</a>
                 </Navbar.Link>
                 <Navbar.Link>
                     <a href="#prodotti_anchor" className={'hover:text-black'}>Prodotti</a>
