@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card} from 'flowbite-react';
-import CustomButton from '../CustomButton';
 
 import '../../App.css';
 
@@ -11,7 +10,7 @@ const CustomCard = ({}) => {
                 className={'grid grid-cols-[repeat(auto-fit,minmax(calc(6rem+10vw),1fr))] gap-3 sm:gap-2 md:gap-5 mx-10 text-montserrat font-light md:text-sm sm:text-sm text-sm'}>
 
 
-                <div className="max-w-sm mt-20 sm:mx-4 mx-auto">
+                <div className="max-w-sm mt-20 sm:mx-4 mx-auto focus:outline-none">
                     <Card imgSrc="/Loghi/image_1.jpeg" className={'h-full hover:bg-neutral-100 cursor-pointer'}>
                         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Esperto Edotto

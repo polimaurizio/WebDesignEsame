@@ -25,7 +25,7 @@ const Nav = ({}) => {
             </div>
 
             {/* Collapse */}
-            <Navbar.Collapse className={'text-black bg-white w-screen'}>
+            <Navbar.Collapse className={'text-black bg-white w-screen outline-none'}>
                 <Navbar.Link
                     href="/navbars"
                     //active={true}
