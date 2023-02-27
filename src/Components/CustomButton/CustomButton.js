@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from "classnames";
 import Divider from "../Divider";
-import '../../App.css';
 
 const CustomButton = ({children, className}) => {
 

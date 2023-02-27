@@ -1,5 +1,5 @@
 import React from 'react';
-import {Flowbite, Navbar} from 'flowbite-react';
+import {Navbar} from 'flowbite-react';
 import Image from '../Image'
 import Logo from '../Logo';
 import '../../App.css';
@@ -7,7 +7,7 @@ import '../../App.css';
 const Nav = ({}) => {
     return (
         <Navbar
-            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem] bg-white bg-opacity-30 backdrop-blur-[10px] shadow-md shadow-black/8'}
+            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem] bg-white shadow-md shadow-black/8'}
             fluid={true}
             rounded={true}
 
