@@ -7,14 +7,11 @@ import CustomFooter from './Components/Footer';
 import CustomHorizontalCard from "./Components/CustomHorizontalCard";
 import CustomButton from "./Components/CustomButton";
 import React from "react";
+import Image from "./Components/Image";
 
 
 
 function App() {
-  /*useEffect(() => {
-    document.getElementsByTagName('html')[0].classList.add('dark');
-  }, []);*/
-
 
     return (
       <Container className={'select-none'}>
@@ -27,15 +24,16 @@ function App() {
               className={'mt-16 sm:mt-20 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>
               La nostra storia</h1>
 
-          <CustomHorizontalCard />
+          <CustomHorizontalCard/>
+          <CustomButton>Scopri di più</CustomButton>
 
 
           {/* Sezione I NOSTRI PRODOTTI */}
           <h1 id={'prodotti_anchor'}
-              className={'mt-16 sm:mt-24 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
+              className={'mt-20 sm:mt-24 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
               nostri prodotti</h1>
           <CustomCard/>
-          <CustomButton className={''}>Scopri di più</CustomButton>
+          <CustomButton>Scopri di più</CustomButton>
 
 
 

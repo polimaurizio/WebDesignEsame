@@ -7,3 +7,16 @@
 * {
     -webkit-tap-highlight-color: transparent;
 }
+
+.line {
+    animation: line_animation_start 1s infinite ease-in-out;
+}
+
+@keyframes line_animation_start {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}

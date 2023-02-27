@@ -1,14 +1,13 @@
 import React from 'react';
-import {Navbar} from 'flowbite-react';
+import {Flowbite, Navbar} from 'flowbite-react';
 import Image from '../Image'
 import Logo from '../Logo';
 import '../../App.css';
 
 const Nav = ({}) => {
     return (
-
         <Navbar
-            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem]'}
+            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem] bg-white bg-opacity-30 backdrop-blur-[10px] shadow-md shadow-black/8'}
             fluid={true}
             rounded={true}
 
@@ -20,12 +19,12 @@ const Nav = ({}) => {
             </Navbar.Brand>
 
             <div className="flex md:order-2">
-                <Image/>
+                <Image />
                 <Navbar.Toggle/>
             </div>
 
             {/* Collapse */}
-            <Navbar.Collapse className={'text-black bg-white w-screen outline-none'}>
+            <Navbar.Collapse className={'text-black w-screen outline-none w-screen text-center'}>
                 <Navbar.Link
                     href="/navbars"
                     //active={true}
