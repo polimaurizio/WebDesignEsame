@@ -5,24 +5,23 @@ const CustomHorizontalCard = () => {
     return(
         <div className={'w-[80%] md:w-[60%] pt-20 mx-auto flex justify-center md:grid grid-cols-2 gap-7 font-montserrat font-light text-center md:text-justify text-sm sm:text-sm xl:text-base'}>
             <p>
-                Since the middle of the eighties, the company has been studying new ideas and creating panels in
-                thermoplastic materials, speeding up the production cycle considerably. Great attention has been paid to
-                ergonomics, as well as to research into new technological developments.
+                Dalla metà degli anni Ottanta l’Azienda si è impegnata nello studio di nuove soluzioni ed alla
+                realizzazione di pannellature in materiali termoplastici, che consentono un notevole snellimento del
+                ciclo produttivo. All’ergonomia è stata dedicata una particolare attenzione, come d’altra parte alla
+                ricerca di soluzioni tecnologiche e sviluppo di nuovi prodotti.
                 <br/><br/>
-                In the commercial market, besides the traditional lever and semiautomatic machines, some electronic,
-                some with volumetric dosing, and other reliable models have been introduced.
-                <br/><br/>
-                The same principles are also applied to the domestic machines, which include a wide range of models
-                enabling the preparation of excellent coffee at home.
+                Ai modelli tradizionali a leva e semiautomatici sono stati affiancati i modelli elettronici a dosatura
+                volumetrica, sempre più affidabili.
+
             </p>
             <p className={'hidden md:block'}>
-                Leaders in domestic machines, the Europiccola and Professional represent a co-ordination of elegance,
-                quality and reliability; manufactured since 1961, these machines will never be out of fashion; the
-                Professional is exhibited in the Museum of Modern Art in New York.
+                La Pavoni il 29 gennaio 1999 ha ottenuto la certificazione UNI EN ISO 9001, numero di certificato 9130
+                PAV 2, ed IQ Net, numero di registrazione IT-8070, rilasciate dagli Enti certificatori competenti e la
+                conformità alla norma ISO 9001:2000 il 14 Novembre 2003.
                 <br/><br/>
-                On 29 January 1999 La Pavoni obtained the UNI EN ISO 9001 certification (number 9130 PAV2) and IQ Net –
-                registration number IT-8070 issued by the competent Certification Institutes and the conformity to the
-                norms ISO 9001:2000 of 14 November 2003.
+                Antesignane delle macchine domestiche sono i modelli a leva Europiccola e Professional, punto d’incontro
+                tra eleganza, qualità ed affidabilità, prodotte dal 1961 non conoscono mode; il modello Professional è
+                esposto nel museo d’Arte Moderna di New York.
             </p>
         </div>
     );
