@@ -7,11 +7,12 @@ import {Carousel, Flowbite} from "flowbite-react";
 
 const Carrosello = ({}) =>{
     return(
-        <div className="h-[600px] sm:h-[600px] xl:h-[700px] relative pt-[3.5rem]">
+        <div className="h-[600px] sm:h-[600px] xl:h-[700px] relative pt-[3.1rem]">
             <Flowbite
                 theme={{
                     theme: {
                         carousel: {
+                            indicators: {wrapper: 'z-50 absolute bottom-5 left-1/2 flex -translate-x-1/2 space-x-3'},
                             rightControl: "hidden",
                             leftControl: "hidden",
                             scrollContainer: {base: "flex h-full snap-mandatory overflow-y-hidden overflow-x-scroll scroll-smooth indiana-scroll-container indiana-scroll-container--hide-scrollbars rounded-none"}

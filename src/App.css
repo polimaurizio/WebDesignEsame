@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+}
+
 * {
     -webkit-tap-highlight-color: transparent;
 }
@@ -15,11 +27,9 @@
 @keyframes line_animation_start {
     0% {
         width: 0%;
-        /* transform: scaleX(0) translateX(0%); */
 
     }
     100% {
         width: 100%;
-        /* transform: scaleX(1) translateX(0%); */
     }
 }

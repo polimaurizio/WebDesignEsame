@@ -21,6 +21,11 @@ const CustomCard = ({}) => {
                             esercitata
                             abbassando...
                         </p>
+                        <div className={'flex w-full justify-end pt-2'}>
+                            <button
+                                className={'border hover:bg-gray-200 rounded-full py-2 px-4'}>Aggiungi
+                            </button>
+                        </div>
                     </Card>
                 </div>
 
@@ -36,6 +41,11 @@ const CustomCard = ({}) => {
                             esercitata
                             abbassando...
                         </p>
+                        <div className={'flex w-full justify-end pt-2'}>
+                            <button
+                                className={'border hover:bg-gray-200 rounded-full py-2 px-4'}>Aggiungi
+                            </button>
+                        </div>
                     </Card>
                 </div>
 
@@ -51,6 +61,11 @@ const CustomCard = ({}) => {
                             esercitata
                             abbassando...
                         </p>
+                        <div className={'flex w-full justify-end pt-2'}>
+                            <button
+                                className={'border hover:bg-gray-200 rounded-full py-2 px-4'}>Aggiungi
+                            </button>
+                        </div>
                     </Card>
                 </div>
 
@@ -66,6 +81,11 @@ const CustomCard = ({}) => {
                             esercitata
                             abbassando...
                         </p>
+                        <div className={'flex w-full justify-end pt-2'}>
+                            <button
+                                className={'border hover:bg-gray-200 rounded-full py-2 px-4'}>Aggiungi
+                            </button>
+                        </div>
                     </Card>
                 </div>
         </div>

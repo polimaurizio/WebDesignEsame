@@ -7,11 +7,9 @@ import '../../App.css';
 const Nav = ({}) => {
     return (
         <Navbar
-            className={'fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem] bg-white shadow-md shadow-black/8'}
+            className={'h-auto fixed z-50 w-full rounded-none font-montserrat font-light h-[3.5rem] bg-white shadow-md shadow-black/8'}
             fluid={true}
             rounded={true}
-
-
         >
 
             <Navbar.Brand href="#">
@@ -19,7 +17,7 @@ const Nav = ({}) => {
             </Navbar.Brand>
 
             <div className="flex md:order-2">
-                <Image />
+                <Image/>
                 <Navbar.Toggle/>
             </div>
 

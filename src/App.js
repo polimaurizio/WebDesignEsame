@@ -7,7 +7,7 @@ import CustomFooter from './Components/Footer';
 import CustomHorizontalCard from "./Components/CustomHorizontalCard";
 import CustomButton from "./Components/CustomButton";
 import React from "react";
-import Image from "./Components/Image";
+import Gallery from "./Components/Gallery";
 
 
 
@@ -27,10 +27,13 @@ function App() {
           <CustomHorizontalCard/>
           <CustomButton>Scopri di più</CustomButton>
 
+          {/* Sezione I NOSTRI PRODOTTI */}
+          <Gallery/>
+
 
           {/* Sezione I NOSTRI PRODOTTI */}
           <h1 id={'prodotti_anchor'}
-              className={'mt-20 sm:mt-24 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
+              className={'mt-32 sm:mt-32 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
               nostri prodotti</h1>
           <CustomCard/>
           <CustomButton>Scopri di più</CustomButton>
