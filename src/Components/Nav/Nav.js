@@ -27,7 +27,6 @@ const Nav = ({}) => {
             <Navbar.Collapse className={'text-black w-screen outline-none w-screen text-center'}>
                 <Navbar.Link
                     href="/navbars"
-                    //active={true}
                 >
                     <p className={'text-black hover:text-black'}>Home</p>
                 </Navbar.Link>

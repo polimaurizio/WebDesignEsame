@@ -8,7 +8,7 @@ const CustomButton = ({children, className}) => {
 
     return (
         <div className={classes}>
-            <div className={'flex items-center cursor-pointer'}>
+            <div className={'button flex items-center cursor-pointer'}>
                 <svg width="33" height="33" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="19.5" cy="19.5" r="19.5" fill="#D9D9D9"/>
                     <path d="M18 14L23 19.5L18 25" stroke="black" stroke-width="2" stroke-linecap="round"
