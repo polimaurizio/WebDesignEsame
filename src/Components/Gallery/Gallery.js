@@ -5,18 +5,19 @@ import '../../App.css'
 const Gallery = ({className}) => {
     let classes = classNames('', className);
     const links = [
-        'https://www.lapavoni.com/wp-content/uploads/2016/11/image8-7.jpg',
-        'https://www.lapavoni.com/wp-content/uploads/2016/11/image10-9.jpg',
-        'https://www.lapavoni.com/wp-content/uploads/2016/11/image9-8.jpg',
-        'https://www.lapavoni.com/wp-content/uploads/2016/11/image3-9.jpg',
-        'https://www.lapavoni.com/wp-content/uploads/2016/11/image4-8.jpg'
+        '/Img/colored/story_img_1.jpeg',
+        '/Img/colored/story_img_2.jpeg',
+        '/Img/colored/story_img_3.jpeg',
+        '/Img/colored/story_img_4.jpeg',
+        '/Img/colored/story_img_5.jpeg',
+        '/Img/colored/story_img_6.jpeg',
     ];
 
     return (
         <div className={'w-full pt-32'}>
             <div className={'no-scrollbar overflow-x-scroll flex h-56 sm:h-64 md:h-72 lg:h-80 pr-5'}>
                 {links.map(link => (
-                    <img className={'pl-5 [&:not(:hover)]:sepia hue-rotate-60 transition-all easy-in duration-300'}
+                    <img className={'pl-5 [&:not(:hover)]:grayscale transition-all easy-in duration-300'}
                          src={link}/>
                 ))}
             </div>
