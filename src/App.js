@@ -10,7 +10,6 @@ import React from "react";
 import Gallery from "./Components/Gallery";
 
 
-
 function App() {
 
     return (
@@ -21,7 +20,7 @@ function App() {
 
           {/* Sezione LA NOSTRA STORIA */}
           <h1 id={'storia_anchor'}
-              className={'mt-16 sm:mt-20 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>
+              className={'mt-16 sm:mt-20 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>
               La nostra storia</h1>
 
           <CustomHorizontalCard/>
@@ -33,7 +32,7 @@ function App() {
 
           {/* Sezione I NOSTRI PRODOTTI */}
           <h1 id={'prodotti_anchor'}
-              className={'mt-32 sm:mt-32 text-center font-bold text-[#364053] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
+              className={'mt-40 sm:mt-48 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat font-semibold'}>I
               nostri prodotti</h1>
           <CustomCard/>
           <CustomButton>Scopri di più</CustomButton>

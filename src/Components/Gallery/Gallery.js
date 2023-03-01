@@ -15,7 +15,8 @@ const Gallery = ({className}) => {
 
     return (
         <div className={'w-full pt-32'}>
-            <div className={'no-scrollbar overflow-x-scroll flex h-56 sm:h-64 md:h-72 lg:h-80 pr-5'}>
+            <h1 className={'pl-5 text-[60px] sm:text-[70px] md:text-[90px] xl:text-[100px] font-montserrat font-bold text-[#2B2B2B]'}>Galleria</h1>
+            <div className={'no-scrollbar overflow-x-scroll pt-5 flex h-56 sm:h-64 md:h-72 lg:h-80 pr-5'}>
                 {links.map(link => (
                     <img className={'pl-5 [&:not(:hover)]:grayscale transition-all easy-in duration-300'}
                          src={link}/>
