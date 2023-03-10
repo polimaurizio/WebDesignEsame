@@ -41,7 +41,7 @@ function App() {
             {/* Sezione I NOSTRI PRODOTTI */}
             <h1 
                 id={'prodotti_anchor'}
-                className={'mt-40 sm:mt-48 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>I
+                className={'mt-30 sm:mt-28 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>I
                 nostri prodotti
             </h1>
             <CustomCard/>
