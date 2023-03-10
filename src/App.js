@@ -9,17 +9,9 @@ import CustomButton from "./Components/CustomButton";
 import React from "react";
 import Gallery from "./Components/Gallery";
 import useScrollPosition from "./useScrollPosition";
-import { useEffect } from 'react';
 
 
 function App() {
-    useEffect(() => {
-        const root = window.document.documentElement;
-        root.classList.remove('dark');
-        root.classList.add('light');
-      }, []);
-    
-
     const scrollPosition = useScrollPosition();
 
     console.log(scrollPosition);
@@ -31,21 +23,27 @@ function App() {
 
 
             {/* Sezione LA NOSTRA STORIA */}
-            <h1 id={'storia_anchor'}
+            <h1 
+                id={'storia_anchor'}
                 className={'mt-16 sm:mt-20 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>
-                La nostra storia</h1>
+                La nostra storia
+            </h1>
 
             <CustomHorizontalCard/>
-            <CustomButton>Scopri di più</CustomButton>
+            <CustomButton>
+                Scopri di più
+            </CustomButton>
 
             {/* Sezione I NOSTRI PRODOTTI */}
             <Gallery/>
 
 
             {/* Sezione I NOSTRI PRODOTTI */}
-            <h1 id={'prodotti_anchor'}
+            <h1 
+                id={'prodotti_anchor'}
                 className={'mt-40 sm:mt-48 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>I
-                nostri prodotti</h1>
+                nostri prodotti
+            </h1>
             <CustomCard/>
             <CustomButton>Scopri di più</CustomButton>
 

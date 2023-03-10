@@ -7,7 +7,7 @@ import {Carousel, Flowbite} from "flowbite-react";
 
 const Carrosello = ({}) =>{
     return(
-        <div className="h-[600px] sm:h-[600px] xl:h-screen relative pt-[3.1rem]">
+        <div className="h-screen sm:h-screen xl:h-screen relative pt-[3.1rem]">
             <Flowbite
                 theme={{
                     theme: {
