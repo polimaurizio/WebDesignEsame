@@ -16,6 +16,10 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     -webkit-tap-highlight-color: transparent;
 }
@@ -32,4 +36,9 @@
     100% {
         width: 100%;
     }
+}
+
+#storia_anchor {
+    position: relative;
+    top: -50px;
 }

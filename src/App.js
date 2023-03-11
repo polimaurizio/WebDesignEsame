@@ -23,8 +23,8 @@ function App() {
 
 
             {/* Sezione LA NOSTRA STORIA */}
+            <a id={'storia_anchor'}></a>
             <h1 
-                id={'storia_anchor'}
                 className={'mt-16 sm:mt-20 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>
                 La nostra storia
             </h1>
@@ -39,8 +39,8 @@ function App() {
 
 
             {/* Sezione I NOSTRI PRODOTTI */}
+            <a id={'prodotti_anchor'}></a>
             <h1 
-                id={'prodotti_anchor'}
                 className={'mt-30 sm:mt-28 text-center font-bold text-[#2B2B2B] text-[30px] sm:text-[40px] font-montserrat'}>I
                 nostri prodotti
             </h1>
